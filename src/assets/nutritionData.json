@@ -1,0 +1,58 @@
+{
+  "total_calories": "1120",
+  "daily_calories_requirement": "2000",
+  "macronutrients": {
+    "carbohydrates": {
+      "value": "94",
+      "unit": "g",
+      "daily_requirement": "275"
+    },
+    "protein": {
+      "value": "63",
+      "unit": "g",
+      "daily_requirement": "50"
+    },
+    "fat": {
+      "value": "56",
+      "unit": "g",
+      "daily_requirement": "78"
+    },
+    "fiber": {
+      "value": "6",
+      "unit": "g",
+      "daily_requirement": "28"
+    }
+  },
+  "micronutrients": {
+    "calcium": {
+      "value": "450",
+      "unit": "mg",
+      "daily_requirement": "1300"
+    },
+    "iron": {
+      "value": "5",
+      "unit": "mg",
+      "daily_requirement": "18"
+    },
+    "vitamin_a": {
+      "value": "800",
+      "unit": "IU",
+      "daily_requirement": "900"
+    },
+    "vitamin_c": {
+      "value": "15",
+      "unit": "mg",
+      "daily_requirement": "90"
+    },
+    "potassium": {
+      "value": "900",
+      "unit": "mg",
+      "daily_requirement": "4700"
+    },
+    "sodium": {
+      "value": "1800",
+      "unit": "mg",
+      "daily_requirement": "2300"
+    }
+  }
+}
