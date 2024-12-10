@@ -13,6 +13,7 @@
     "@emotion/styled": "^11.14.0",
     "@mui/icons-material": "^6.1.10",
     "@mui/material": "^6.1.10",
+    "@tippyjs/react": "^4.2.6",
     "bulma": "^1.0.2",
     "graphql-request": "^7.1.2",
     "motion": "^12.0.0-alpha.2",
@@ -20,7 +21,8 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "sass": "^1.82.0",
-    "scss": "^0.2.4"
+    "scss": "^0.2.4",
+    "tippy.js": "^6.3.7"
   },
   "devDependencies": {
     "@types/node": "^20",

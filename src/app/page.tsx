@@ -33,7 +33,7 @@ export default async function Home() {
   const recipes = await res.recipes;
 
   return (
-    <div className="users container">
+    <div className="users mx-6">
       <Filter recipes={recipes} />
     </div>
   );

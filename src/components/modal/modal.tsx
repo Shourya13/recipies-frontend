@@ -110,7 +110,7 @@ export default function Modal({
         </section>
         <footer className="modal-card-foot p-4 px-5 is-flex is-justify-content-flex-end border-top">
           <button
-            className="button is-small is-danger mx-1"
+            className="button is-small is-danger is-color-white mx-1"
             onClick={() => toggleShow()}
           >
             Cancel

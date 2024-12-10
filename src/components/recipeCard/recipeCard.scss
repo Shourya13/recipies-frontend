@@ -52,35 +52,56 @@
     .content-container {
         position: relative;
         bottom: 25px !important;
+        width: -webkit-fill-available;
 
         .name {
             font-family: sans-serif;
             color: grey;
         }
 
-        .ingredient-title {
-            z-index: 1;
-            background-color: white;
-        }
 
-        .ingredient-list-item {
-            overflow: hidden;
-            text-overflow: ellipsis;
-            display: -webkit-box;
-            -webkit-line-clamp: 1;
-            -webkit-box-orient: vertical;
-
-            // &::before {
-            //     content: '∘';
-            // }
-        }
     }
 }
 
-.nutrition-value-btn {
+.place-bottom {
     position: absolute;
     bottom: 10px;
 }
+
+.tag-item {
+    background-color: #29bf12;
+    color: white;
+    border-radius: 4px;
+}
+
+.white-tag-item {
+    background-color: white;
+    color: gray;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    padding: 2px 5px;
+}
+
+
+.ingredient-title {
+    z-index: 1;
+    background-color: white;
+}
+
+.ingredient-list-item {
+    // overflow: hidden;
+    // text-overflow: ellipsis;
+    // display: -webkit-box;
+    // -webkit-line-clamp: 1;
+    // -webkit-box-orient: vertical;
+    display: list-item;
+
+    // &::before {
+    //     content: '∘';
+    // }
+}
+
+.nutrition-value-btn {}
 
 .is-display-list-item {
     display: list-item;
@@ -103,8 +124,10 @@
         min-height: 510px;
         border-radius: 8px;
         box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.15), 0px 1px 3px rgba(0, 0, 0, 0.06);
+        border: 1px solid lightgray;
 
         &:hover {
+            border: 1px solid lightgray;
             box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2), 0px 4px 6px rgba(0, 0, 0, 0.15);
         }
 
@@ -120,6 +143,7 @@
     .flip-card-back {
         position: absolute;
         top: 0;
+        height: 100%;
         transform: rotateY(180deg)
     }
 }
